@@ -5,6 +5,7 @@ import { VideoContainer } from "../components/VideoContainer";
 
 export function Home() {
   const { slug } = useParams<{ slug: string }>();
+  
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
